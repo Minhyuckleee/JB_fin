@@ -1,0 +1,2 @@
+"""Single-agent orchestration scaffold."""
+
