@@ -1,0 +1,2 @@
+langgraph-cli[inmem]>=0.4.0
+langgraph>=0.2.0

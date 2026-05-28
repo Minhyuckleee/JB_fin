@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jb-fin"
+version = "0.1.0"
+description = "Mock LangGraph backend agent scaffold for JB_fin."
+requires-python = ">=3.11"
+dependencies = [
+  "langgraph-cli[inmem]>=0.4.0",
+  "langgraph>=0.2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["backend*"]
