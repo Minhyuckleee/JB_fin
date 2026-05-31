@@ -1,7 +1,7 @@
 {
   "dependencies": ["."],
   "graphs": {
-    "study": "./backend/agent/study_graph.py:graph"
+    "baseline": "./backend/agent/baseline_grouped_graph.py:graph"
   },
   "env": ".env"
 }
